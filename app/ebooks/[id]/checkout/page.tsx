@@ -18,6 +18,16 @@ export default async function CheckoutPage({
         <p className="mt-4 text-[var(--foreground)]/70">
           You selected: <strong>{ebookTitle}</strong> (ID: {id})
         </p>
+        <p className="mt-4 text-sm text-[var(--foreground)]/60">
+          For inquiries about books or bulk orders, email{" "}
+          <a
+            href="mailto:agreementpodcast@gmail.com"
+            className="text-[var(--accent)] hover:underline"
+          >
+            agreementpodcast@gmail.com
+          </a>
+          .
+        </p>
         <p className="mt-6 text-sm text-[var(--foreground)]/60">
           To accept real payments, integrate Stripe, Gumroad, or another
           payment provider. Add your API keys and checkout session logic in{" "}
@@ -31,7 +41,7 @@ export default async function CheckoutPage({
             href="/ebooks"
             className="rounded-full bg-[var(--accent)] px-6 py-3 font-semibold text-[var(--background)] transition glow-hover"
           >
-            Back to Ebooks
+            Back to Bookshop
           </Link>
           <Link
             href="/"

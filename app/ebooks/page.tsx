@@ -32,8 +32,9 @@ const EBOOKS = [
 ];
 
 export const metadata = {
-  title: "Ebooks | coachseunopoola",
-  description: "Buy coaching ebooks and get instant access. PDF and EPUB formats.",
+  title: "The Bookshop | coachseunopoola",
+  description:
+    "Literature for growth. Curated materials to provide a foundational blueprint for change. E-books and resources.",
 };
 
 export default function EbooksPage() {
@@ -41,10 +42,11 @@ export default function EbooksPage() {
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
       <div className="text-center">
         <h1 className="font-display text-4xl font-bold text-[var(--foreground)] sm:text-5xl">
-          Ebooks
+          The Bookshop
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-[var(--foreground)]/70">
-          Practical guides to transform your life. Buy once, keep forever.
+          Literature for growth. Curated materials to provide a foundational
+          blueprint for change. Buy once, keep forever.
         </p>
       </div>
 

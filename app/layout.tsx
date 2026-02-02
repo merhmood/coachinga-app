@@ -21,9 +21,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "coachseunopoola | Podcasts & Ebooks",
+  title: "Coach Seun Opoola | Coaching, Speaking & Literature for Growth",
   description:
-    "Watch coaching podcasts and buy ebooks to transform your life. Modern coaching content in one place.",
+    "Catalyzing a global shift in consciousness through coaching, keynote speaking, and transformative literature. Shift your perspective. Transform your world.",
 };
 
 export default function RootLayout({

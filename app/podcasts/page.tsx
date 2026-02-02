@@ -1,19 +1,22 @@
-// Replace these with your actual YouTube video IDs (from the video URL: youtube.com/watch?v=VIDEO_ID)
+// Add your YouTube video IDs from https://www.youtube.com/@agreementpodcast
 const PODCAST_EPISODES = [
   {
     id: "dQw4w9WgXcQ",
-    title: "Episode 1: Introduction to Coaching",
-    description: "What is coaching and how can it change your life?",
+    title: "The Disagreement (this agreement) Sessions — Episode 1",
+    description:
+      "Weekly 30-minute interviews with faith, community & industry leaders discussing Mindset vs. Material.",
   },
   {
     id: "jNQXAC9IVRw",
-    title: "Episode 2: Setting Powerful Goals",
-    description: "The science and art of goal-setting that actually works.",
+    title: "The Disagreement (this agreement) Sessions — Episode 2",
+    description:
+      "Professional, minimalist studio audio. Engaging conversations to spark immediate mindset shifts.",
   },
   {
     id: "9bZkp7q19f0",
-    title: "Episode 3: Building Habits",
-    description: "How to build habits that stick and compound over time.",
+    title: "The Disagreement (this agreement) Sessions — Episode 3",
+    description:
+      "Faith, community & industry leaders on mindset engineering and intentional growth.",
   },
 ];
 
@@ -36,11 +39,21 @@ export default function PodcastsPage() {
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
       <div className="text-center">
         <h1 className="font-display text-4xl font-bold text-[var(--foreground)] sm:text-5xl">
-          Podcasts
+          The Disagreement (this agreement) Sessions
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-[var(--foreground)]/70">
-          Watch coaching episodes from YouTube. New episodes added regularly.
+          Weekly 30-minute interviews with faith, community & industry leaders
+          discussing &quot;Mindset vs. Material.&quot; Professional, minimalist
+          studio audio for high impact.
         </p>
+        <a
+          href="https://www.youtube.com/@agreementpodcast"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex items-center gap-2 rounded-full border-2 border-[var(--border)] px-6 py-3 font-semibold text-[var(--foreground)] transition hover:border-[var(--accent)] hover:bg-[var(--accent)]/5"
+        >
+          Subscribe on YouTube
+        </a>
       </div>
 
       <div className="mt-16 space-y-16">
@@ -62,8 +75,16 @@ export default function PodcastsPage() {
       </div>
 
       <p className="mt-12 text-center text-sm text-[var(--foreground)]/50">
-        Replace the video IDs in the code with your own YouTube podcast video
-        IDs to show your content.
+        Replace the video IDs above with your actual episode IDs from{" "}
+        <a
+          href="https://www.youtube.com/@agreementpodcast"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[var(--accent)] hover:underline"
+        >
+          YouTube @agreementpodcast
+        </a>
+        .
       </p>
     </div>
   );
